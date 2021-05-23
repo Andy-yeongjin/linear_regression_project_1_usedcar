@@ -1,4 +1,5 @@
-# Linear_Regression
+# Linear Regression Project - Used Car Price Prediction
+
 - Andy(김영진), qkrckdgus1015(박창현), Gilbert(김기성)
 - monitoring by PinkWink(민형기 강사님) & FLY-CODE77(정현석 클래스 매니저님)
 - 사용언어 및 패키지
