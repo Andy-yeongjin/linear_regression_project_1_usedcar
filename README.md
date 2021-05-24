@@ -39,7 +39,7 @@
   * CNG: 가정 및 공장 등에서 사용하느 도시가스를 약 200 기압으로 압축한 연료
   * LPG: 석유성분 중 끓는점이 낮은가스를 상온에 기입하여 액화한 연료 
 - Transmission : 변속기 유형 (Automatic: 자동 / Manual: 수동)
-- Owner Type : First(첫번쨰 오너), Second(두번쨰 오너), Third(세번째 오너), Fourth & Above(4번쨰 이상 오너)
+- Owner Type : First(첫번째 오너), Second(두번째 오너), Third(세번째 오너), Fourth & Above(4번째 이상 오너)
 - Mileage : 연비 (자동차 회사에서 제공하는 표준 연비)
 - Engine : 엔진 배기량 (단위: cc)
 - Power : 엔진 최대 출력 (bnp: 제동마력 - 실제로 엔진이 돌아가는 힘)
