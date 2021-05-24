@@ -29,23 +29,9 @@
 ## 2. 데이터 탐색 및 전처리
 ### 2-1. 데이터 탐색
 #### 1) 컬럼명칭
-<img src="https://user-images.githubusercontent.com/80456601/119280709-8abc8580-bc6d-11eb-947f-8e8d28dba700.png" width="50%" height="40%"/>
 
-- Name : 자동차 브래드와 모델명 
-- Location : 자동차를 판매하는 위치 
-- Year : 자동차 모델 연도 
-- Kilometers Driven : 이전 소유자가 사용한 주행거리 (단위 : KM)
-- Fuel Type : 자동차에서 사용하는 연료 유형 (가솔린, 디젤, 전기, CNG, LPG) 
-  * CNG: 가정 및 공장 등에서 사용하느 도시가스를 약 200 기압으로 압축한 연료
-  * LPG: 석유성분 중 끓는점이 낮은가스를 상온에 기입하여 액화한 연료 
-- Transmission : 변속기 유형 (Automatic: 자동 / Manual: 수동)
-- Owner Type : First(첫번째 오너), Second(두번째 오너), Third(세번째 오너), Fourth & Above(4번째 이상 오너)
-- Mileage : 연비 (자동차 회사에서 제공하는 표준 연비)
-- Engine : 엔진 배기량 (단위: cc)
-- Power : 엔진 최대 출력 (bnp: 제동마력 - 실제로 엔진이 돌아가는 힘)
-- Seats : 자동차 좌석수
-- New Price : 해당 모델 새차 가격
-- Price : 중고차 가격(인도화페 루피 Lakh(라크) - 100,000 루비)
+<img src="https://user-images.githubusercontent.com/80456601/119350278-1c61dc80-bcda-11eb-8b3a-8dbc300b36c6.png" width="80%" height="50%"/>
+
 
 #### 2) 분석
 - 브랜드별 거래량을 기준으로 인도 시장에서는 Maruti & Suziki 19.44%로 1위 Hyundai 18.45%로 2위 Honda가 10.22%로 3위 순으로 거래가 이루어지고 있습니다.
