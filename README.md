@@ -57,7 +57,7 @@
 
 <img  src="https://user-images.githubusercontent.com/80456601/119281298-2b13a980-bc70-11eb-8cd5-cdc06d541ec3.png" width="80%" height="80%"/>
 
-- 인도시장은 Disel-53.25%, Petrol-45.62%로 디젤차의 거래량이 가장 많았습니다. (인도시장은 디젤차가 저렴하고 디젤차에 대한 규제가 강하지 않아 거래량이 많은 것으로 팍악됩니다.)
+- 인도시장은 Disel-53.25%, Petrol-45.62%로 디젤차의 거래량이 가장 많았습니다. (인도시장은 디젤차가 저렴하고 디젤차에 대한 규제가 강하지 않아 거래량이 많은 것으로 악됩니다.)
 
 <img src="https://user-images.githubusercontent.com/80456601/119283756-f9eba700-bc78-11eb-8075-b23f42f3eaab.png" width="70%" height="70%"/>
 
