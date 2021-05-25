@@ -2,6 +2,7 @@
 
 - Facilitator: [Andy](https://github.com/Andy-yeongjin)(김영진), [qkrckdgus1015](https://github.com/qkrckdgus1015)(박창현), [Gilbert](https://github.com/Ki-Sung)(김기성)
 - Supervisor: [PinkWink](https://github.com/PinkWink)(민형기 강사님) & [FLY-CODE77](https://github.com/FLY-CODE77)(정현석 클래스 매니저님)
+- Date : 2021.04.20 ~ 2021.05.20
 - 사용언어 및 패키지
   - [![Python Badge](http://img.shields.io/badge/-Python%20-blue?style=flat-square&&logoColor=yellow&logo=python&link=https://www.python.org/)](https://www.python.org/) [![Pandas Badge](http://img.shields.io/badge/-Pandas%20-blue?style=flat-square&logoColor=yellow&logo=pandas&link=https://pandas.pydata.org/)](https://pandas.pydata.org/) [![Matplotlib Badge](http://img.shields.io/badge/-Matplotlib%20-blue?style=flat-square&logoColor=yellow&logo=matplotlib&link=https://matplotlib.org/)](https://matplotlib.org/) [![Pyecharts Badge](http://img.shields.io/badge/-Pyecharts%20-blue?style=flat-square&logoColor=yellow&logo=pyecharts&link=https://pyecharts.org/#/en-us/)](https://pyecharts.org/#/en-us/) [![Seaborn Badge](http://img.shields.io/badge/-Seaborn%20-blue?style=flat-square&logoColor=yellow&logo=seaborn&link=https://seaborn.pydata.org/)](https://seaborn.pydata.org/) [![Sklearn Badge](http://img.shields.io/badge/-Sklearn%20-blue?style=flat-square&logoColor=yellow&logo=scikit-learn&link=https://scikit-learn.org/stable/)](https://scikit-learn.org/stable/)
 
