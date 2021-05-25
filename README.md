@@ -40,5 +40,6 @@
 ### 3-2 비쥬얼라이제이션 패키지 
 
 <img width="1113" alt="스크린샷 2021-05-25 오후 4 26 05" src="https://user-images.githubusercontent.com/80456601/119462773-115f8880-bd7c-11eb-9418-4fecdff3c6bc.png">
+
 - 시각화의 가독성을 위해 그래프는 'pyecharts' 패키지를 사용하였습니다. 
 - github 파일 중 'used_car_Visualization.ipynb'을 참고 부탁드립니다.
