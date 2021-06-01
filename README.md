@@ -26,19 +26,28 @@
 
 <img src="https://user-images.githubusercontent.com/80456601/120070388-40039900-c0c5-11eb-8611-8aaaf61746b6.png" width="80%" height="80%"/>
 
-- 본 프로젝트에서 사용한 모댈은 몇 번의 반복적인 모델링을 돌려 본 결과 'LinearRegression'과'RandomForestRegressor'를 사용하였습니다.
+- 본 프로젝트에서 사용한 모델은 몇 번의 반복적인 모델링을 돌려 본 결과 'LinearRegression'과'RandomForestRegressor' 정확도가 높아  두 모델을 사용하였습니다.
 - 참고로 'LinearRegression'는 R2 score가 0.78%, MSE: 27.08 / 'RandomForestRegressor'는 R2 score가 0.92%, MSE: 10.53으로 'RandomForestRegressor'의 정확도가 높습니다.
 - 모델의 정확도를 올리기위해 log를 씌워 보았는데, 놀랍게도 'LinearRegression'는 R2 score가 0.78% -> 0.92, MSE: 27.08 -> 0.01 / 'RandomForestRegressor'는 R2 score가 0.92% -> 0.94, MSE: 10.53 -> 0.008로 정확도가 높게 상승하였습니다. 
 - 더 자세한 사항은 '**used_car_modeling.ipynb**'자료를 참고 부탁드립니다.
 
-## 3. EDA
-### 2-1. 컬럼명칭
+## 4. EDA
+### 4-1. 컬럼명칭
 
 <img src="https://user-images.githubusercontent.com/80456601/119350278-1c61dc80-bcda-11eb-8b3a-8dbc300b36c6.png" width="80%" height="50%"/>
 
-### 2-2 분석
+### 4-2 분석
 
 <img width="1113" alt="스크린샷 2021-05-25 오후 4 26 05" src="https://user-images.githubusercontent.com/80456601/119462773-115f8880-bd7c-11eb-9418-4fecdff3c6bc.png">
 
 - 시각화의 가독성을 위해 그래프는 'pyecharts' 패키지를 사용하였습니다. 
 - github 파일 중 'used_car_Visualization.ipynb'을 참고 부탁드립니다.
+- EDA를 바탕으로 내용을 정리하자면 인도 중고차 시장은 2015년까지 상승 하였다가 2016년부터 거래량이 꾸준히 하락하여 감소추세를 보이고 있고, 인도에서 가장 거래가 많은 브랜드는 'Maruti Suziki', 'Hyundai', 'Honda', 인도의 중고차 중 연료 타입은 Disel이 53.25%를 차지하고 있고, 기어타입은 수동이 71.45%로 수동기어 타입을 선호하는 것으로 나타났습니다. 마지막으로 오너 타입은 첫번째 오너가 가장 많은 것으로 나타났습니다.
+- '그림자 금융'으로 자동차를 사기 위한 재원 조달이 어려워지고, 최근 배기가스 기준이 엄격해지고, 배터리 전기차 개발 경쟁으로 투자에 부담을 느껴 판매 감소까지 이어져 타격을 받은 원인으로 중고차를 넘어 인도 자동차 시장 자체가 침채기 인 것은 확실 합니다. 그럼에도 불구하고 인도 자동차 시장의 견조한 성장세가 기대되는 이유는 이미 세계 4위 규모인 자동차 판매 시장 보유국 이라는 점과 강력한 경제성장에 따른 소득 증가가 자동차 수요확대로 이어질 것으로 예상되기 때문입니다.
+- 만약 인도 중고차에대해 더 다양한 정보를 원하시는 경우 [KOTRA 인도 자동차 시장 전망](https://www.kita.net/cmmrcInfo/cmmrcNews/overseasMrktNews/overseasMrktNewsDetail.do?pageIndex=1&nIndex=1799052&type=0) 자료를 참고 부탁드립니다.
+
+
+<img src="https://user-images.githubusercontent.com/80456601/120257485-4ebb9d00-c2cb-11eb-92bf-98fd7330ee2c.png" width="60%" height="50%"/>
+
+- 히트맵에서는 엔진과 마력 : 0.86, 마력과 가격 : 0.77, 엔진과 가격 : 0.66, 마력과 자동변속기 0.64로 나타나 엔진과 마력의 상관관계가 가장 높다고 나왔습니다. 
+- 하지만 엔진과 연비 : -0.64, 변속기 수동과 가격 : -0.59, 연비와 마력 : -0.54로 엔진과 연비는 상관이 있을 것이다 라는 저희의 생각과 달리 의외로 엔진과 연비가 관계가 없는 것으로 나왔습니다.
