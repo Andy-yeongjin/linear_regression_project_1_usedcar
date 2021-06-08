@@ -28,7 +28,7 @@
 
 - 본 프로젝트에서 사용한 모델은 몇 번의 반복적인 모델링을 돌려 본 결과 'LinearRegression'과'RandomForestRegressor' 정확도가 높아  두 모델을 사용하였습니다.
 - 참고로 'LinearRegression'는 R2 score가 0.78%, MSE: 27.08 / 'RandomForestRegressor'는 R2 score가 0.92%, MSE: 10.53으로 'RandomForestRegressor'의 정확도가 높습니다.
-- 모델의 정확도를 올리기위해 log를 씌워 보았는데, 놀랍게도 'LinearRegression'는 R2 score가 0.78% -> 0.92, MSE: 27.08 -> 0.01 / 'RandomForestRegressor'는 R2 score가 0.92% -> 0.94, MSE: 10.53 -> 0.008로 정확도가 높게 상승하였습니다. 
+- MSE의 차이를 줄이기위해(모델의 정확도를 올리기위해) log를 씌워 보았는데, 놀랍게도 'LinearRegression'는 R2 score가 0.78% -> 0.92, MSE: 27.08 -> 0.01 / 'RandomForestRegressor'는 R2 score가 0.92% -> 0.94, MSE: 10.53 -> 0.008로 정확도가 높게 상승하였습니다. 
 - 더 자세한 사항은 '**used_car_modeling.ipynb**'자료를 참고 부탁드립니다.
 
 ## 4. EDA
